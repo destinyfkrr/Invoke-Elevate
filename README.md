@@ -4,6 +4,6 @@ This utility exploits the Windows Task Scheduler API to conduct a Lateral Elevat
 
 However, in the event the command payload is detected by security software, the AMSI bypass code should be implemented to disable the memory scanner prior to execution
 
-Testing has demonstrated that the tool is fully functional on the latest Windows 11 builds when run from the UAV Bypassed Terminal, even with Windows Defender enabled
+Testing has demonstrated that the tool is fully functional on the latest Windows 11 builds when run from the UAC Bypassed Terminal, even with Windows Defender enabled
 
 Requirement : An active PowerShell session with Local Administrator rights (High Integrity)
